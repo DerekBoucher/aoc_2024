@@ -5,7 +5,7 @@ fn main() {
     log::info!("-----------------------------");
     log::info!("Day 1: Historian Hysteria");
 
-    let input = std::fs::read_to_string("input.txt").unwrap();
+    let input = std::fs::read_to_string("day_1/input.txt").unwrap();
     let seperate_lines: Vec<String> = input.lines().map(|x| x.to_string()).collect();
     let mut left_location_ids: Vec<i32> = vec![];
     let mut right_location_ids: Vec<i32> = vec![];
